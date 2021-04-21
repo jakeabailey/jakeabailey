@@ -59,7 +59,7 @@ a:active {
     h1 {
         font-family: Helvetica;
         color: white;
-        size: 20px;
+        size: 15px;
     }
 
     .messageDiv {
@@ -82,8 +82,11 @@ a:active {
     }
 
     h1 {
+
+font-family: Helvetica;
+
         color: white;
-        size: 20px;
+        size: 15px;
     }
 
     .messageDiv {
