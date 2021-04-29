@@ -19,7 +19,7 @@ a:link:visited:hover:active {
 }
 
 /* linkButton */
-button:hover {
+button:hover { 
     background-color: lightGrey;
 }
 
@@ -28,6 +28,25 @@ h1 {
     font-size: 25px;
     font-weight: 600;
     color: white;
+}
+
+body {
+    font-family: Helvetica;
+    background-color: white;
+}
+
+.messageDiv {
+    height: 75px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 50px;
+    margin-bottom: 100px;
+    background-color: lightgrey;
+    box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, .2); 
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Device Size Switch */
