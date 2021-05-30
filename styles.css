@@ -122,7 +122,7 @@ body {
             font-weight: 500;
         }
     
-        .topTitle {
+        .topButton {
             width: 25vw;
             height: 50px;
             margin: 5px;
@@ -136,7 +136,7 @@ body {
             flex-direction: row; 
             justify-content: center;
             align-items: center;
-        } .topTitle:hover {
+        } .topButton:hover {
             width: 25vw;
             height: 50px;
             font-family: Helvetica;
@@ -150,16 +150,7 @@ body {
             justify-content: center;
             align-items: center;
         }
-    
-        .navbar {
-            height: 50px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            display:flex;
-            flex-direction: row; 
-            justify-content: center;
-            align-items: center;
-        }
+
 
     } @media (prefers-color-scheme: light) {
         body {
@@ -222,7 +213,7 @@ body {
             font-weight: 500;
         }
     
-        .topTitle {
+        .topButton {
             width: 25vw;
             height: 50px;
             margin: 5px;
@@ -236,7 +227,7 @@ body {
             flex-direction: row; 
             justify-content: center;
             align-items: center;
-        } .topTitle:hover {
+        } .topButton:hover {
             width: 25vw;
             height: 50px;
             font-family: Helvetica;
@@ -250,16 +241,7 @@ body {
             justify-content: center;
             align-items: center;
         }
-    
-        .navbar {
-            height: 50px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            display:flex;
-            flex-direction: row; 
-            justify-content: center;
-            align-items: center;
-        }
+
     }
 
 } /* Wide */ @media only screen and (min-width: 800px) {
@@ -347,7 +329,7 @@ body {
             cursor: pointer;
         }
     
-        .topTitle {
+        .topButton {
             width: 150px;
             height: 50px;
             margin: 5px;
@@ -361,7 +343,7 @@ body {
             flex-direction: row; 
             justify-content: center;
             align-items: center;
-        } .topTitle:hover {
+        } .topButton:hover {
             width: 150px;
             height: 50px;
             font-family: Helvetica;
@@ -371,16 +353,6 @@ body {
             background: #212121;
             border-radius: 10px;
             display:flex; 
-            flex-direction: row; 
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .navbar {
-            height: 50px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            display:flex;
             flex-direction: row; 
             justify-content: center;
             align-items: center;
@@ -472,7 +444,7 @@ body {
             cursor: pointer;
         }
     
-        .topTitle {
+        .topButton {
             width: 150px;
             height: 50px;
             margin: 5px;
@@ -486,7 +458,7 @@ body {
             flex-direction: row; 
             justify-content: center;
             align-items: center;
-        } .topTitle:hover {
+        } .topButton:hover {
             width: 150px;
             height: 50px;
             font-family: Helvetica;
@@ -500,15 +472,6 @@ body {
             justify-content: center;
             align-items: center;
         }
-    
-        .navbar {
-            height: 50px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            display:flex;
-            flex-direction: row; 
-            justify-content: center;
-            align-items: center;
-        }
+
     }
 }
