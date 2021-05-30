@@ -223,7 +223,7 @@ body {
         }
     
         .topTitle {
-            width: 150px;
+            width: 25vw;
             height: 50px;
             margin: 5px;
             font-family: Helvetica;
@@ -237,7 +237,7 @@ body {
             justify-content: center;
             align-items: center;
         } .topTitle:hover {
-            width: 150px;
+            width: 25vw;
             height: 50px;
             font-family: Helvetica;
             font-size: 20px;
