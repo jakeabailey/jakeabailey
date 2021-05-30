@@ -83,7 +83,7 @@ body {
         }
 
         .topBar {
-            height: 65px;
+            height: 60px;
             padding-top: 15px;
             padding-bottom: 15px;
             margin-top: 25px;
@@ -119,7 +119,7 @@ body {
             height: 60px;
             cursor: pointer;
             font-size: 25px;
-            font-weight: 500;
+            font-weight: bold;
         }
     
         .topButton {
@@ -210,7 +210,7 @@ body {
             height: 60px;
             cursor: pointer;
             font-size: 25px;
-            font-weight: 500;
+            font-weight: bold;
         }
     
         .topButton {
@@ -265,7 +265,7 @@ body {
         }
 
         .topBar {
-            height: 65px;
+            height: 60px;
             padding-top: 15px;
             padding-bottom: 15px;
             margin-top: 25px;
@@ -301,7 +301,7 @@ body {
             height: 60px;
             cursor: pointer;
             font-size: 25px;
-            font-weight: 500;
+            font-weight: bold;
         }
     
         .top {
@@ -378,7 +378,7 @@ body {
         }
 
         .topBar {
-            height: 65px;
+            height: 60px;
             padding-top: 15px;
             padding-bottom: 15px;
             margin-top: 25px;
@@ -415,7 +415,7 @@ body {
             height: 60px;
             cursor: pointer;
             font-size: 25px;
-            font-weight: 500;
+            font-weight: bold;
         }
     
         .top {
