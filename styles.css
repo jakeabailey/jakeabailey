@@ -173,7 +173,7 @@ body {
         }
 
         .topBar {
-            height: 65px;
+            height: 60px;
             padding-top: 15px;
             padding-bottom: 15px;
             margin-top: 25px;
@@ -334,7 +334,6 @@ body {
             height: 50px;
             margin: 5px;
             font-family: Helvetica;
-            font-size: 20px;
             font-weight: bold;
             color: #FFFFFF;
             background: #2D2D2D;
