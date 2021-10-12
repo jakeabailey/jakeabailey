@@ -1,4 +1,4 @@
-/* Made by Jake Bailey, last updated 31/05/2021. */
+/* Made by Jake Bailey, last updated 12/10/2021. */
 
 /* Used for text links */
 .customButtonText {
@@ -248,7 +248,7 @@ body {
     /* Brightness Switch */
     @media (prefers-color-scheme: dark) {
         body {
-            background-color: black;
+            background-color: red;
         }
 
         .messageDiv {
