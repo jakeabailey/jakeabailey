@@ -248,7 +248,7 @@ body {
     /* Brightness Switch */
     @media (prefers-color-scheme: dark) {
         body {
-            background-color: red;
+            background-color: black;
         }
 
         .messageDiv {
