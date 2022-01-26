@@ -23,13 +23,6 @@ button:hover {
     background-color: lightGrey;
 }
 
-h1 {
-    font-family: Helvetica;
-    font-size: 25px;
-    font-weight: 600;
-    color: white;
-}
-
 body {
     font-family: Helvetica;
     background-color: white;
@@ -39,7 +32,7 @@ body {
     text-decoration: none;
 }
 
-.messageDiv {
+.titleDiv {
     height: 75px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -68,8 +61,15 @@ body {
         body {
             background-color: black;
         }
+        
+        h1 {
+            font-family: Helvetica;
+            font-size: 25px;
+            font-weight: 600;
+            color: white;
+        }
 
-        .messageDiv {
+        .titleDiv {
             height: 75px;
             padding-top: 15px;
             padding-bottom: 15px;
@@ -157,28 +157,63 @@ body {
             font-family: Helvetica;
             background-color: white;
         }
+        
+        h1 {
+            font-family: Helvetica;
+            font-size: 25px;
+            font-weight: 600;
+            color: black;
+            margin: 0px;
+        }
 
-        .messageDiv {
-            height: 75px;
+        h2 {
+            font-family: Helvetica;
+            font-size: 17.5px;
+            font-weight: 500;
+            color: black;
+            margin: 20px;
+        }
+
+        h3 {
+            font-family: Helvetica;
+            font-size: 17.5px;
+            font-weight: 500;
+            color: grey;
+            margin: 0px;
+        }
+
+        .titleDiv {
+            height: 60px;
             padding-top: 15px;
             padding-bottom: 15px;
-            margin: 50px;
-            margin-bottom: 100px;
-            background-color: lightgrey;
+            margin: 20px;
+            margin-bottom: 35px;
+            background-color: whitesmoke;
             box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, .2); 
             border-radius: 25px;
+            justify-content: space-between;
             display: flex;
+            flex-direction: row;
+        }
+
+        .titleElement {
             justify-content: center;
             align-items: center;
+            display: flex;
+            flex-direction: column;
+            padding-right: 70px; /* remove this if no image */
+        }
+
+        .titleImg {
+            height: 80px;
+            width: 80px;
+            margin-left: 5px;
+            border-radius: 20px;
         }
 
         .topBar {
             height: 60px;
-            padding-top: 15px;
-            padding-bottom: 15px;
             margin-top: 25px;
-            margin-left: 15px;
-            margin-right: 15px;
             margin-bottom: 100px;
             background-color: lightgrey;
             box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, .2); 
@@ -201,16 +236,16 @@ body {
         }
     
         .linkButton {
-            background-color: #2096F3;
-            color: white;
-            padding: 8px 10px;
+            background-color: transparent;
+            color: #2096F3;
             border: none;
+            margin: 0px;
             border-radius: 15px;
-            width: 300px;
-            height: 60px;
+            width: 40vw;
             cursor: pointer;
             font-size: 25px;
             font-weight: bold;
+            align-items: right;
         }
     
         .topButton {
@@ -251,7 +286,7 @@ body {
             background-color: black;
         }
 
-        .messageDiv {
+        .titleDiv {
             height: 75px;
             padding-top: 15px;
             padding-bottom: 15px;
@@ -363,7 +398,7 @@ body {
             background-color: white;
         }
 
-        .messageDiv {
+        .titleDiv {
             height: 75px;
             padding-top: 15px;
             padding-bottom: 15px;
@@ -474,3 +509,4 @@ body {
 
     }
 }
+
