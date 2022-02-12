@@ -101,7 +101,7 @@ body {
         }
 
         .parentDiv {
-            height: 140px;
+            height: 135px;
             padding-top: 15px;
             padding-bottom: 15px;
             margin: 20px;
@@ -137,8 +137,8 @@ body {
         }
 
         .topButton {
-            width: 26vw;
-            height: 50px;
+            width: calc(100vw / 3 - 35px);
+            height: 45px;
             margin: 5px;
             font-family: Helvetica;
             font-size: 20px;
@@ -151,8 +151,8 @@ body {
             justify-content: center;
             align-items: center;
         } .topButton:hover {
-            width: 26vw;
-            height: 50px;
+            width: calc(100vw / 3 - 35px);
+            height: 45px;
             font-family: Helvetica;
             font-size: 20px;
             font-weight: bold;
@@ -211,7 +211,7 @@ body {
         }
 
         .parentDiv {
-            height: 140px;
+            height: 135px;
             padding-top: 15px;
             padding-bottom: 15px;
             margin: 20px;
@@ -247,8 +247,8 @@ body {
         }
 
         .topButton {
-            width: 26vw;
-            height: 50px;
+            width: calc(100vw / 3 - 35px);
+            height: 45px;
             margin: 5px;
             font-family: Helvetica;
             font-size: 20px;
@@ -260,8 +260,8 @@ body {
             align-items: center;
             justify-content: center;
         } .topButton:hover {
-            width: 26vw;
-            height: 50px;
+            width: calc(100vw / 3 - 35px);
+            height: 45px;
             font-family: Helvetica;
             font-size: 20px;
             font-weight: bold;
@@ -285,6 +285,20 @@ body {
     }
 
 } /* Wide */ @media only screen and (min-width: 800px) {
+    /* Brightness Switch */
+    .titleElement {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titleImg {
+        height: 80px;
+        width: 80px;
+        margin-left: 5px;
+        border-radius: 20px;
+    }
     /* Brightness Switch */
     @media (prefers-color-scheme: dark) {
         body {
@@ -317,7 +331,7 @@ body {
         }
 
         .parentDiv {
-            height: 140px;
+            height: 135px;
             padding-top: 15px;
             padding-bottom: 15px;
             margin: 20px;
@@ -353,8 +367,8 @@ body {
         }
 
         .topButton {
-            width: 26vw;
-            height: 50px;
+            width: calc(100vw / 3 - 35px);
+            height: 45px;
             margin: 5px;
             font-family: Helvetica;
             font-size: 20px;
@@ -367,8 +381,8 @@ body {
             justify-content: center;
             align-items: center;
         } .topButton:hover {
-            width: 26vw;
-            height: 50px;
+            width: calc(100vw / 3 - 35px);
+            height: 45px;
             font-family: Helvetica;
             font-size: 20px;
             font-weight: bold;
@@ -427,7 +441,7 @@ body {
         }
 
         .parentDiv {
-            height: 140px;
+            height: 135px;
             padding-top: 15px;
             padding-bottom: 15px;
             margin: 20px;
@@ -463,8 +477,8 @@ body {
         }
 
         .topButton {
-            width: 26vw;
-            height: 50px;
+            width: calc(100vw / 3 - 35px);
+            height: 45px;
             margin: 5px;
             font-family: Helvetica;
             font-size: 20px;
@@ -473,12 +487,11 @@ body {
             background: #d3d3d3;
             border-radius: 10px;
             display: flex; 
-            flex-direction: row; 
-            justify-content: center;
             align-items: center;
+            justify-content: center;
         } .topButton:hover {
-            width: 26vw;
-            height: 50px;
+            width: calc(100vw / 3 - 35px);
+            height: 45px;
             font-family: Helvetica;
             font-size: 20px;
             font-weight: bold;
@@ -486,7 +499,6 @@ body {
             background: #B3B3B3;
             border-radius: 10px;
             display:flex; 
-            flex-direction: row; 
             justify-content: center;
             align-items: center;
         }
@@ -501,4 +513,5 @@ body {
             display: flex;
         }
     }
+
 }
