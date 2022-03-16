@@ -1,4 +1,4 @@
-/* Made by Jake Bailey, last updated 15/02/2022. */
+/* Made by Jake Bailey, last updated 16/03/2022. */
 
 /* Used for text links */
 .customButtonText {
@@ -55,7 +55,7 @@ body {
 
 /* Device Size Switch */
 /* Narrow */
-@media only screen and (min-width: 1px) and (max-width: 799px) {
+@media only screen and (min-width: 1px) and (max-width: 899px) {
     .titleElement {
         justify-content: center;
         align-items: center;
@@ -284,7 +284,7 @@ body {
         }
     }
 
-} /* Wide */ @media only screen and (min-width: 800px) {
+} /* Wide */ @media only screen and (min-width: 900px) {
     /* Brightness Switch */
     .titleElement {
         justify-content: center;
@@ -304,7 +304,7 @@ body {
         body {
             font-family: Helvetica;
             background-color: black;
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
         }
         
@@ -334,7 +334,7 @@ body {
 
         .parentDiv {
             height: 135px;
-            max-width: 800px;
+            max-width: 900px;
             padding-top: 15px;
             padding-bottom: 15px;
             margin: 20px 25px 20px 25px;
@@ -370,8 +370,7 @@ body {
         }
 
         .topButton {
-            min-width: 230px;
-            max-width: 240px;
+            width: 266.6px;
             height: 45px;
             margin: 5px;
             font-family: Helvetica;
@@ -385,8 +384,7 @@ body {
             justify-content: center;
             align-items: center;
         } .topButton:hover {
-            min-width: 230px;
-            max-width: 240px;
+            width: 266.6px;
             height: 45px;
             margin: 5px;
             font-family: Helvetica;
@@ -424,7 +422,7 @@ body {
         body {
             font-family: Helvetica;
             background-color: white;
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
         }
         
@@ -454,7 +452,7 @@ body {
 
         .parentDiv {
             height: 135px;
-            max-width: 800px;
+            max-width: 900px;
             padding-top: 15px;
             padding-bottom: 15px;
             margin: 20px 25px 20px 25px;
@@ -490,8 +488,7 @@ body {
         }
 
         .topButton {
-            min-width: 230px;
-            max-width: 240px;
+            width: 266.6px;
             height: 45px;
             margin: 5px;
             font-family: Helvetica;
@@ -504,8 +501,7 @@ body {
             align-items: center;
             justify-content: center;
         } .topButton:hover {
-            min-width: 230px;
-            max-width: 240px;
+            width: 266.6px;
             height: 45px;
             margin: 5px;
             font-family: Helvetica;
